@@ -14,6 +14,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -34,6 +37,7 @@
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
   <component name="ProjectId" id="1hdXqAKwP200ca4BbjKH23v5pIo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -103,7 +107,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600342130602</updated>
-      <workItem from="1600342133910" duration="2004000" />
+      <workItem from="1600342133910" duration="2632000" />
     </task>
     <servers />
   </component>
@@ -131,5 +135,9 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="155" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1600343414029" />
+    <state x="327" y="132" key="git4idea.merge.GitPullDialog" timestamp="1600345198475">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="327" y="132" key="git4idea.merge.GitPullDialog/0.0.1280.680@0.0.1280.680" timestamp="1600345198475" />
   </component>
 </project>

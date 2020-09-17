@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="106506cb-bcaf-4b25-8eac-b84d9863ad61" name="Default Changelist" comment="" />
+    <list default="true" id="106506cb-bcaf-4b25-8eac-b84d9863ad61" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,6 +49,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.ignored.files" />
   </component>
   <component name="RunManager" selected="Application.Method3">
@@ -107,18 +112,38 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600342130602</updated>
-      <workItem from="1600342133910" duration="2632000" />
+      <workItem from="1600342133910" duration="2956000" />
     </task>
+    <task id="LOCAL-00001" summary="createThread">
+      <created>1600345284545</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600345284545</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="createThread" />
+    <option name="LAST_COMMIT_MESSAGE" value="createThread" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="233" y="0" key="#Project_Structure" timestamp="1600345613839">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="0" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1600345613839" />
     <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser" timestamp="1600342365984">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1600342365984" />
+    <state x="250" y="0" key="CommitChangelistDialog2" timestamp="1600345325372">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="250" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1600345325372" />
     <state width="1237" height="155" key="GridCell.Tab.0.bottom" timestamp="1600343414029">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -135,9 +160,13 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="155" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1600343414029" />
-    <state x="327" y="132" key="git4idea.merge.GitPullDialog" timestamp="1600345198475">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1600345291220">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="327" y="132" key="git4idea.merge.GitPullDialog/0.0.1280.680@0.0.1280.680" timestamp="1600345198475" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1600345291220" />
+    <state x="327" y="132" key="git4idea.merge.GitPullDialog" timestamp="1600345624628">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="327" y="132" key="git4idea.merge.GitPullDialog/0.0.1280.680@0.0.1280.680" timestamp="1600345624628" />
   </component>
 </project>

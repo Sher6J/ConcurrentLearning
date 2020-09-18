@@ -1,4 +1,4 @@
-package cn.sher6j.createThread;
+package cn.sher6j.concurrentlearnint;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -12,7 +12,7 @@ import lombok.extern.slf4j.Slf4j;
  */
 
 @Slf4j(topic = "c.Method2")
-public class Method2 {
+public class Test02Method2 {
     public static void main(String[] args) {
         /*
         Runnable接口只有一个抽象方法，注解中有@FunctionalInterface，则可以Lambda简化

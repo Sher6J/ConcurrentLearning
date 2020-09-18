@@ -1,4 +1,4 @@
-package cn.sher6j.createThread;
+package cn.sher6j.concurrentlearnint;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -7,7 +7,7 @@ import lombok.extern.slf4j.Slf4j;
  * @create 2020-09-18-12:07
  */
 @Slf4j(topic = "c.ThreadStatus")
-public class ThreadStatus {
+public class Test05ThreadStatus {
     public static void main(String[] args) {
         Thread t1 = new Thread("t1") {
             @Override

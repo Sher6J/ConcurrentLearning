@@ -1,4 +1,4 @@
-package cn.sher6j.createThread;
+package cn.sher6j.concurrentlearnint;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -9,7 +9,7 @@ import lombok.extern.slf4j.Slf4j;
  */
 
 @Slf4j(topic = "c.Method1")
-public class Method1 {
+public class Test01Method1 {
     public static void main(String[] args) {
 
         Thread t = new Thread("t1") {

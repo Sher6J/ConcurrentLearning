@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="106506cb-bcaf-4b25-8eac-b84d9863ad61" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/sher6j/createThread/Method3$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/sher6j/createThread/Method3$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/sher6j/createThread/Method3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/sher6j/createThread/Method3.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +56,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.ignored.files" />
   </component>
-  <component name="RunManager" selected="Application.Method3">
+  <component name="RunManager" selected="Application.ThreadStatus">
     <configuration name="Method1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.sher6j.createThread.Method1" />
       <module name="ConcurrentLearning" />
@@ -94,8 +96,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StartAndRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.sher6j.createThread.StartAndRun" />
+      <module name="ConcurrentLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.sher6j.createThread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadStatus" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.sher6j.createThread.ThreadStatus" />
+      <module name="ConcurrentLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.sher6j.createThread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadStatus" />
+        <item itemvalue="Application.StartAndRun" />
         <item itemvalue="Application.Method3" />
         <item itemvalue="Application.Method2" />
         <item itemvalue="Application.Method1" />
@@ -112,7 +142,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600342130602</updated>
-      <workItem from="1600342133910" duration="2956000" />
+      <workItem from="1600342133910" duration="3079000" />
+      <workItem from="1600400106476" duration="1160000" />
     </task>
     <task id="LOCAL-00001" summary="createThread">
       <created>1600345284545</created>
@@ -121,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600345284545</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="createThread">
+      <created>1600345639011</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600345639011</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,37 +174,47 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="0" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1600345613839" />
-    <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser" timestamp="1600342365984">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="401" y="148" key="#com.intellij.ide.util.MemberChooser" timestamp="1600402066421">
+      <screen x="0" y="0" width="1152" height="2008" />
     </state>
+    <state x="401" y="148" key="#com.intellij.ide.util.MemberChooser/0.0.1152.2008@0.0.1152.2008" timestamp="1600402066421" />
     <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1600342365984" />
-    <state x="250" y="0" key="CommitChangelistDialog2" timestamp="1600345325372">
+    <state x="250" y="0" key="CommitChangelistDialog2" timestamp="1600345638363">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="250" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1600345325372" />
-    <state width="1237" height="155" key="GridCell.Tab.0.bottom" timestamp="1600343414029">
+    <state x="250" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1600345638363" />
+    <state width="1109" height="590" key="GridCell.Tab.0.bottom" timestamp="1600402110948">
+      <screen x="0" y="0" width="1152" height="2008" />
+    </state>
+    <state width="1109" height="590" key="GridCell.Tab.0.bottom/0.0.1152.2008@0.0.1152.2008" timestamp="1600402110948" />
+    <state width="1237" height="155" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1600345655886" />
+    <state width="1109" height="590" key="GridCell.Tab.0.center" timestamp="1600402110946">
+      <screen x="0" y="0" width="1152" height="2008" />
+    </state>
+    <state width="1109" height="590" key="GridCell.Tab.0.center/0.0.1152.2008@0.0.1152.2008" timestamp="1600402110946" />
+    <state width="1237" height="155" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1600345655886" />
+    <state width="1109" height="590" key="GridCell.Tab.0.left" timestamp="1600402110946">
+      <screen x="0" y="0" width="1152" height="2008" />
+    </state>
+    <state width="1109" height="590" key="GridCell.Tab.0.left/0.0.1152.2008@0.0.1152.2008" timestamp="1600402110946" />
+    <state width="1237" height="155" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1600345655885" />
+    <state width="1109" height="590" key="GridCell.Tab.0.right" timestamp="1600402110947">
+      <screen x="0" y="0" width="1152" height="2008" />
+    </state>
+    <state width="1109" height="590" key="GridCell.Tab.0.right/0.0.1152.2008@0.0.1152.2008" timestamp="1600402110947" />
+    <state width="1237" height="155" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1600345655886" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1600345641332">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="155" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1600343414029" />
-    <state width="1237" height="155" key="GridCell.Tab.0.center" timestamp="1600343414028">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1600345641332" />
+    <state x="257" y="828" key="com.intellij.ide.util.TipDialog" timestamp="1600400130126">
+      <screen x="0" y="0" width="1152" height="2008" />
     </state>
-    <state width="1237" height="155" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1600343414028" />
-    <state width="1237" height="155" key="GridCell.Tab.0.left" timestamp="1600343414027">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="257" y="828" key="com.intellij.ide.util.TipDialog/0.0.1152.2008@0.0.1152.2008" timestamp="1600400130126" />
+    <state x="294" y="390" key="git4idea.merge.GitPullDialog" timestamp="1600402176250">
+      <screen x="0" y="0" width="1152" height="2008" />
     </state>
-    <state width="1237" height="155" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1600343414027" />
-    <state width="1237" height="155" key="GridCell.Tab.0.right" timestamp="1600343414029">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="155" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1600343414029" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1600345291220">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1600345291220" />
-    <state x="327" y="132" key="git4idea.merge.GitPullDialog" timestamp="1600345624628">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
+    <state x="294" y="390" key="git4idea.merge.GitPullDialog/0.0.1152.2008@0.0.1152.2008" timestamp="1600402176250" />
     <state x="327" y="132" key="git4idea.merge.GitPullDialog/0.0.1280.680@0.0.1280.680" timestamp="1600345624628" />
   </component>
 </project>

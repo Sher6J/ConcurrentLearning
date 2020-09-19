@@ -2,20 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="106506cb-bcaf-4b25-8eac-b84d9863ad61" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/sher6j/concurrentlearning/chapter1Base/Test09JoinWithTime.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/sher6j/createThread/Method1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/sher6j/concurrentlearnint/Test01Method1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/sher6j/createThread/Method2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/sher6j/concurrentlearnint/Test02Method2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/sher6j/createThread/Method3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/sher6j/concurrentlearnint/Test03Method3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/sher6j/createThread/StartAndRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/sher6j/concurrentlearnint/Test04StartAndRun.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/sher6j/createThread/ThreadStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/sher6j/concurrentlearnint/Test05ThreadStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sher6j/createThread/Method1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sher6j/createThread/Method1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sher6j/createThread/Method2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sher6j/createThread/Method3$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sher6j/createThread/Method3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/sher6j/concurrentlearnint/Test01Method1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/sher6j/concurrentlearning/chapter1Base/Test01Method1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/sher6j/concurrentlearnint/Test02Method2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/sher6j/concurrentlearning/chapter1Base/Test02Method2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/sher6j/concurrentlearnint/Test03Method3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/sher6j/concurrentlearning/chapter1Base/Test03Method3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/sher6j/concurrentlearnint/Test04StartAndRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/sher6j/concurrentlearning/chapter1Base/Test04StartAndRun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/sher6j/concurrentlearnint/Test05ThreadStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/sher6j/concurrentlearning/chapter1Base/Test05ThreadStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/sher6j/concurrentlearnint/Test06SleepAndYield.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/sher6j/concurrentlearning/chapter1Base/Test06SleepAndYield.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/sher6j/concurrentlearnint/Test07InterruptSleep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/sher6j/concurrentlearning/chapter1Base/Test07InterruptSleep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/sher6j/concurrentlearnint/Test08Join.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/sher6j/concurrentlearning/chapter1Base/Test08Join.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/sher6j/concurrentlearnint/Test09JoinWithTime.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,9 +65,14 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.ignored.files" />
   </component>
-  <component name="RunManager" selected="Application.Test08Join">
-    <configuration name="Test04StartAndRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.sher6j.concurrentlearnint.Test04StartAndRun" />
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.sher6j.concurrentlearning.chapter2SharedModel" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Test02Synchronized">
+    <configuration name="Test01Method1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.sher6j.concurrentlearnint.Test01Method1" />
       <module name="ConcurrentLearning" />
       <extension name="coverage">
         <pattern>
@@ -82,8 +84,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test05ThreadStatus" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.sher6j.concurrentlearnint.Test05ThreadStatus" />
+    <configuration name="Test01Problem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.sher6j.concurrentlearning.chapter2SharedModel.Test01Problem" />
+      <module name="ConcurrentLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.sher6j.concurrentlearning.chapter2SharedModel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test02Synchronized" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.sher6j.concurrentlearning.chapter2SharedModel.Test02Synchronized" />
+      <module name="ConcurrentLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.sher6j.concurrentlearning.chapter2SharedModel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test11InterruptRunningThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.sher6j.concurrentlearnint.Test11InterruptRunningThread" />
       <module name="ConcurrentLearning" />
       <extension name="coverage">
         <pattern>
@@ -95,34 +123,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test06SleepAndYield" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.sher6j.concurrentlearnint.Test06SleepAndYield" />
-      <module name="ConcurrentLearning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.sher6j.concurrentlearnint.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test07InterruptSleep" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.sher6j.concurrentlearnint.Test07InterruptSleep" />
-      <module name="ConcurrentLearning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.sher6j.concurrentlearnint.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test08Join" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.sher6j.concurrentlearnint.Test08Join" />
+    <configuration name="Test12ThreadState" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.sher6j.concurrentlearnint.Test12ThreadState" />
       <module name="ConcurrentLearning" />
       <extension name="coverage">
         <pattern>
@@ -136,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test08Join" />
-        <item itemvalue="Application.Test07InterruptSleep" />
-        <item itemvalue="Application.Test06SleepAndYield" />
-        <item itemvalue="Application.Test05ThreadStatus" />
-        <item itemvalue="Application.Test04StartAndRun" />
+        <item itemvalue="Application.Test02Synchronized" />
+        <item itemvalue="Application.Test01Problem" />
+        <item itemvalue="Application.Test12ThreadState" />
+        <item itemvalue="Application.Test01Method1" />
+        <item itemvalue="Application.Test11InterruptRunningThread" />
       </list>
     </recent_temporary>
   </component>
@@ -156,7 +158,8 @@
       <updated>1600342130602</updated>
       <workItem from="1600342133910" duration="3079000" />
       <workItem from="1600400106476" duration="1358000" />
-      <workItem from="1600412675907" duration="3079000" />
+      <workItem from="1600412675907" duration="3326000" />
+      <workItem from="1600488277484" duration="7762000" />
     </task>
     <task id="LOCAL-00001" summary="createThread">
       <created>1600345284545</created>
@@ -186,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600402282383</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="createThread">
+      <created>1600416205379</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1600416205379</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,44 +216,45 @@
     </state>
     <state x="401" y="148" key="#com.intellij.ide.util.MemberChooser/0.0.1152.2008@0.0.1152.2008" timestamp="1600413034430" />
     <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1600342365984" />
-    <state x="225" y="0" key="CommitChangelistDialog2" timestamp="1600402281531">
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1600502355993">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="225" y="0" key="CommitChangelistDialog2/0.0.1152.2008@0.0.1152.2008" timestamp="1600416204038" />
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1600502355993" />
+    <state width="1237" height="154" key="GridCell.Tab.0.bottom" timestamp="1600502358545">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1109" height="590" key="GridCell.Tab.0.bottom/0.0.1152.2008@0.0.1152.2008" timestamp="1600416406155" />
+    <state width="1237" height="154" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1600502358545" />
+    <state width="1237" height="154" key="GridCell.Tab.0.center" timestamp="1600502358545">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1109" height="590" key="GridCell.Tab.0.center/0.0.1152.2008@0.0.1152.2008" timestamp="1600416406155" />
+    <state width="1237" height="154" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1600502358545" />
+    <state width="1237" height="154" key="GridCell.Tab.0.left" timestamp="1600502358545">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1109" height="590" key="GridCell.Tab.0.left/0.0.1152.2008@0.0.1152.2008" timestamp="1600416406155" />
+    <state width="1237" height="154" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1600502358545" />
+    <state width="1237" height="154" key="GridCell.Tab.0.right" timestamp="1600502358545">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1109" height="590" key="GridCell.Tab.0.right/0.0.1152.2008@0.0.1152.2008" timestamp="1600416406155" />
+    <state width="1237" height="154" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1600502358545" />
+    <state x="210" y="219" key="Vcs.Push.Dialog.v2" timestamp="1600416211019">
       <screen x="0" y="0" width="1152" height="2008" />
     </state>
-    <state x="225" y="0" key="CommitChangelistDialog2/0.0.1152.2008@0.0.1152.2008" timestamp="1600402281531" />
-    <state x="250" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1600345638363" />
-    <state width="1109" height="590" key="GridCell.Tab.0.bottom" timestamp="1600415483135">
-      <screen x="0" y="0" width="1152" height="2008" />
-    </state>
-    <state width="1109" height="590" key="GridCell.Tab.0.bottom/0.0.1152.2008@0.0.1152.2008" timestamp="1600415483135" />
-    <state width="1237" height="155" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1600345655886" />
-    <state width="1109" height="590" key="GridCell.Tab.0.center" timestamp="1600415483135">
-      <screen x="0" y="0" width="1152" height="2008" />
-    </state>
-    <state width="1109" height="590" key="GridCell.Tab.0.center/0.0.1152.2008@0.0.1152.2008" timestamp="1600415483135" />
-    <state width="1237" height="155" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1600345655886" />
-    <state width="1109" height="590" key="GridCell.Tab.0.left" timestamp="1600415483134">
-      <screen x="0" y="0" width="1152" height="2008" />
-    </state>
-    <state width="1109" height="590" key="GridCell.Tab.0.left/0.0.1152.2008@0.0.1152.2008" timestamp="1600415483134" />
-    <state width="1237" height="155" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1600345655885" />
-    <state width="1109" height="590" key="GridCell.Tab.0.right" timestamp="1600415483135">
-      <screen x="0" y="0" width="1152" height="2008" />
-    </state>
-    <state width="1109" height="590" key="GridCell.Tab.0.right/0.0.1152.2008@0.0.1152.2008" timestamp="1600415483135" />
-    <state width="1237" height="155" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1600345655886" />
-    <state x="210" y="219" key="Vcs.Push.Dialog.v2" timestamp="1600402287213">
-      <screen x="0" y="0" width="1152" height="2008" />
-    </state>
-    <state x="210" y="219" key="Vcs.Push.Dialog.v2/0.0.1152.2008@0.0.1152.2008" timestamp="1600402287213" />
+    <state x="210" y="219" key="Vcs.Push.Dialog.v2/0.0.1152.2008@0.0.1152.2008" timestamp="1600416211019" />
     <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1600345641332" />
-    <state x="257" y="828" key="com.intellij.ide.util.TipDialog" timestamp="1600412675145">
-      <screen x="0" y="0" width="1152" height="2008" />
+    <state x="286" y="280" key="com.intellij.ide.util.TipDialog" timestamp="1600488279686">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="257" y="828" key="com.intellij.ide.util.TipDialog/0.0.1152.2008@0.0.1152.2008" timestamp="1600412675145" />
-    <state x="294" y="390" key="git4idea.merge.GitPullDialog" timestamp="1600416134008">
-      <screen x="0" y="0" width="1152" height="2008" />
+    <state x="286" y="280" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1600488279686" />
+    <state x="327" y="132" key="git4idea.merge.GitPullDialog" timestamp="1600502319400">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="294" y="390" key="git4idea.merge.GitPullDialog/0.0.1152.2008@0.0.1152.2008" timestamp="1600416134008" />
-    <state x="327" y="132" key="git4idea.merge.GitPullDialog/0.0.1280.680@0.0.1280.680" timestamp="1600345624628" />
+    <state x="327" y="132" key="git4idea.merge.GitPullDialog/0.0.1280.680@0.0.1280.680" timestamp="1600502319400" />
   </component>
 </project>

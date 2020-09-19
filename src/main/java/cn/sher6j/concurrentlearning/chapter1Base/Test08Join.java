@@ -1,4 +1,4 @@
-package cn.sher6j.concurrentlearnint;
+package cn.sher6j.concurrentlearning.chapter1Base;
 
 import lombok.extern.slf4j.Slf4j;
 

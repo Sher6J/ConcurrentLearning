@@ -71,8 +71,8 @@ class Philosopher extends Thread {
         while (true) {
             // 获得左手筷子
             synchronized (left) {
-                // 获得右手筷子
-                synchronized (right) {
+                // 获得右手筷子 synchronized拿不到锁就会一直等待
+                synchronized (right) { // 这里逐渐造成死锁，一直等待其他线程不释放的资源
                     // 吃饭
                     eat();
                 }

@@ -1,4 +1,4 @@
-package cn.sher6j.concurrentlearning.chapter2SharedModel;
+package cn.sher6j.concurrentlearning.chapter2SharedModelWithLock;
 
 import lombok.extern.slf4j.Slf4j;
 

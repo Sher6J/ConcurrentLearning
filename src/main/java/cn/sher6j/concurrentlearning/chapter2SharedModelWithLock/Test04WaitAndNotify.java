@@ -1,4 +1,4 @@
-package cn.sher6j.concurrentlearning.chapter2SharedModel;
+package cn.sher6j.concurrentlearning.chapter2SharedModelWithLock;
 
 /**
  * @author sher6j

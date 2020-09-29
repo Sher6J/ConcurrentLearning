@@ -1,11 +1,8 @@
-package cn.sher6j.concurrentlearning.chapter2SharedModel;
+package cn.sher6j.concurrentlearning.chapter2SharedModelWithLock;
 
-import cn.sher6j.concurrentlearning.utils.Downloader;
 import lombok.extern.slf4j.Slf4j;
 
-import java.io.IOException;
 import java.util.Hashtable;
-import java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;

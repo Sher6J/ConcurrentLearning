@@ -5,6 +5,7 @@ import java.util.function.IntUnaryOperator;
 
 /**
  * 原子整数类型
+ * 注意 updateAndGet 的实现
  * @author sher6j
  * @create 2020-09-29-19:27
  */

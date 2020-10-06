@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="106506cb-bcaf-4b25-8eac-b84d9863ad61" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/sher6j/concurrentlearning/chapter3SharedModelNoLock/atomic/TestAtomicInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/sher6j/concurrentlearning/chapter3SharedModelNoLock/atomic/TestAtomicInteger.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +61,7 @@
       <recent name="cn.sher6j.concurrentlearning.chapter2SharedModel" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test04AtomicArray">
+  <component name="RunManager" selected="Application.Test05Adder">
     <configuration name="Test02CasProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.sher6j.concurrentlearning.chapter3SharedModelNoLock.Test02CasProblem" />
       <module name="ConcurrentLearning" />
@@ -102,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestAtomicInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.sher6j.concurrentlearning.chapter3SharedModelNoLock.atomic.TestAtomicInteger" />
+    <configuration name="Test05Adder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.sher6j.concurrentlearning.chapter3SharedModelNoLock.Test05Adder" />
       <module name="ConcurrentLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.sher6j.concurrentlearning.chapter3SharedModelNoLock.atomic.*" />
+          <option name="PATTERN" value="cn.sher6j.concurrentlearning.chapter3SharedModelNoLock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,19 +128,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestAtomicInteger" />
       <item itemvalue="Application.TestAtomicReference" />
       <item itemvalue="Application.Test02CasProblem" />
       <item itemvalue="Application.Test03AtomicStampedReference" />
       <item itemvalue="Application.Test04AtomicArray" />
+      <item itemvalue="Application.Test05Adder" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test05Adder" />
         <item itemvalue="Application.Test04AtomicArray" />
         <item itemvalue="Application.Test03AtomicStampedReference" />
         <item itemvalue="Application.Test02CasProblem" />
         <item itemvalue="Application.TestAtomicReference" />
-        <item itemvalue="Application.TestAtomicInteger" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +185,8 @@
       <workItem from="1601202912411" duration="1303000" />
       <workItem from="1601272262482" duration="20000" />
       <workItem from="1601361709813" duration="1352000" />
-      <workItem from="1601376544797" duration="6990000" />
+      <workItem from="1601376544797" duration="7026000" />
+      <workItem from="1601944846825" duration="2002000" />
     </task>
     <task id="LOCAL-00001" summary="createThread">
       <created>1600345284545</created>
@@ -279,7 +279,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601379875858</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="createThread">
+      <created>1601383560559</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1601383560559</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -303,51 +310,51 @@
     </state>
     <state x="401" y="148" key="#com.intellij.ide.util.MemberChooser/0.0.1152.2008@0.0.1152.2008" timestamp="1600413034430" />
     <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1601380642964" />
-    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1601379875073">
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1601383559787">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="225" y="0" key="CommitChangelistDialog2/0.0.1152.2008@0.0.1152.2008" timestamp="1600416204038" />
-    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1601379875073" />
-    <state x="397" y="191" key="FileChooserDialogImpl" timestamp="1601272280588">
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1601383559787" />
+    <state x="397" y="191" key="FileChooserDialogImpl" timestamp="1601383583494">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="357" y="759" key="FileChooserDialogImpl/0.0.1152.2008@0.0.1152.2008" timestamp="1601200517607" />
-    <state x="397" y="191" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1601272280588" />
-    <state width="1237" height="428" key="GridCell.Tab.0.bottom" timestamp="1601383499620">
+    <state x="397" y="191" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1601383583494" />
+    <state width="1237" height="428" key="GridCell.Tab.0.bottom" timestamp="1601945562695">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1109" height="590" key="GridCell.Tab.0.bottom/0.0.1152.2008@0.0.1152.2008" timestamp="1600416406155" />
-    <state width="1237" height="428" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1601383499620" />
-    <state width="1237" height="428" key="GridCell.Tab.0.center" timestamp="1601383499620">
+    <state width="1237" height="428" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1601945562695" />
+    <state width="1237" height="428" key="GridCell.Tab.0.center" timestamp="1601945562695">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1109" height="590" key="GridCell.Tab.0.center/0.0.1152.2008@0.0.1152.2008" timestamp="1600416406155" />
-    <state width="1237" height="428" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1601383499620" />
-    <state width="1237" height="428" key="GridCell.Tab.0.left" timestamp="1601383499619">
+    <state width="1237" height="428" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1601945562695" />
+    <state width="1237" height="428" key="GridCell.Tab.0.left" timestamp="1601945562695">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1109" height="590" key="GridCell.Tab.0.left/0.0.1152.2008@0.0.1152.2008" timestamp="1600416406155" />
-    <state width="1237" height="428" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1601383499619" />
-    <state width="1237" height="428" key="GridCell.Tab.0.right" timestamp="1601383499620">
+    <state width="1237" height="428" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1601945562695" />
+    <state width="1237" height="428" key="GridCell.Tab.0.right" timestamp="1601945562695">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1109" height="590" key="GridCell.Tab.0.right/0.0.1152.2008@0.0.1152.2008" timestamp="1600416406155" />
-    <state width="1237" height="428" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1601383499620" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1601379878551">
+    <state width="1237" height="428" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1601945562695" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1601383562422">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="210" y="219" key="Vcs.Push.Dialog.v2/0.0.1152.2008@0.0.1152.2008" timestamp="1600416211019" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1601379878551" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1601383562422" />
     <state x="286" y="280" key="com.intellij.ide.util.TipDialog" timestamp="1601376551411">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="257" y="828" key="com.intellij.ide.util.TipDialog/0.0.1152.2008@0.0.1152.2008" timestamp="1601200505991" />
     <state x="286" y="280" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1601376551411" />
-    <state x="327" y="132" key="git4idea.merge.GitPullDialog" timestamp="1601383539500">
+    <state x="327" y="132" key="git4idea.merge.GitPullDialog" timestamp="1601948072045">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="294" y="390" key="git4idea.merge.GitPullDialog/0.0.1152.2008@0.0.1152.2008" timestamp="1600416134008" />
-    <state x="327" y="132" key="git4idea.merge.GitPullDialog/0.0.1280.680@0.0.1280.680" timestamp="1601383539500" />
+    <state x="327" y="132" key="git4idea.merge.GitPullDialog/0.0.1280.680@0.0.1280.680" timestamp="1601948072045" />
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1601377318511">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

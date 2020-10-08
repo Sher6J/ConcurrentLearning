@@ -6,12 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="106506cb-bcaf-4b25-8eac-b84d9863ad61" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/sher6j/concurrentlearning/chapter5ConcurrencyTools/Test01MyThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/sher6j/concurrentlearning/chapter5ThreadPool/Test01MyThreadPool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/sher6j/concurrentlearning/chapter5ConcurrencyTools/Test02FixedThreadPoolExecution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/sher6j/concurrentlearning/chapter5ThreadPool/Test02FixedThreadPoolExecution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/sher6j/concurrentlearning/chapter5ConcurrencyTools/Test03SingleTreadPoolExecution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/sher6j/concurrentlearning/chapter5ThreadPool/Test03SingleTreadPoolExecution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/sher6j/concurrentlearning/chapter5ConcurrencyTools/Test04TaskProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/sher6j/concurrentlearning/chapter5ThreadPool/Test04TaskProcess.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/sher6j/concurrentlearning/chapter5ConcurrencyTools/Test05ScheduledExecutorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/sher6j/concurrentlearning/chapter5ThreadPool/Test05ScheduledExecutorService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/sher6j/concurrentlearning/chapter5ConcurrencyTools/Test06Schedule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/sher6j/concurrentlearning/chapter5ThreadPool/Test06Schedule.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,13 +80,13 @@
       <recent name="cn.sher6j.concurrentlearning.chapter2SharedModel" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test07ForkJoin">
-    <configuration name="Test03SingleTreadPoolExecution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.sher6j.concurrentlearning.chapter5ThreadPool.Test03SingleTreadPoolExecution" />
+  <component name="RunManager" selected="Application.Test02ReadWriteLock">
+    <configuration name="Test01AQS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.sher6j.concurrentlearning.chapter6ConcurrencyTools.Test01AQS" />
       <module name="ConcurrentLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.sher6j.concurrentlearning.chapter5ThreadPool.*" />
+          <option name="PATTERN" value="cn.sher6j.concurrentlearning.chapter6ConcurrencyTools.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test04TaskProcess" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.sher6j.concurrentlearning.chapter5ThreadPool.Test04TaskProcess" />
+    <configuration name="Test02ReadWriteLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.sher6j.concurrentlearning.chapter6ConcurrencyTools.Test02ReadWriteLock" />
       <module name="ConcurrentLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.sher6j.concurrentlearning.chapter5ThreadPool.*" />
+          <option name="PATTERN" value="cn.sher6j.concurrentlearning.chapter6ConcurrencyTools.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,19 +147,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test03SingleTreadPoolExecution" />
-      <item itemvalue="Application.Test04TaskProcess" />
       <item itemvalue="Application.Test05ScheduledExecutorService" />
       <item itemvalue="Application.Test06Schedule" />
       <item itemvalue="Application.Test07ForkJoin" />
+      <item itemvalue="Application.Test01AQS" />
+      <item itemvalue="Application.Test02ReadWriteLock" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test02ReadWriteLock" />
+        <item itemvalue="Application.Test01AQS" />
         <item itemvalue="Application.Test07ForkJoin" />
         <item itemvalue="Application.Test06Schedule" />
         <item itemvalue="Application.Test05ScheduledExecutorService" />
-        <item itemvalue="Application.Test04TaskProcess" />
-        <item itemvalue="Application.Test03SingleTreadPoolExecution" />
       </list>
     </recent_temporary>
   </component>
@@ -216,7 +210,7 @@
       <workItem from="1601984938393" duration="14000" />
       <workItem from="1602141751247" duration="643000" />
       <workItem from="1602142416820" duration="93000" />
-      <workItem from="1602142533657" duration="5996000" />
+      <workItem from="1602142533657" duration="10882000" />
     </task>
     <task id="LOCAL-00001" summary="createThread">
       <created>1600345284545</created>
@@ -372,11 +366,54 @@
       <option name="project" value="LOCAL" />
       <updated>1602146529392</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="createThread">
+      <created>1602154885946</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1602154885946</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:D:/IdeaProjects/ConcurrentLearning/src/main/java/cn/sher6j/concurrentlearning/chapter6ConcurrencyTools" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="createThread" />
@@ -395,50 +432,50 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1600735991400" />
-    <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser" timestamp="1602154423895">
+    <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser" timestamp="1602155398497">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="401" y="148" key="#com.intellij.ide.util.MemberChooser/0.0.1152.2008@0.0.1152.2008" timestamp="1600413034430" />
-    <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1602154423895" />
-    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1602146528471">
+    <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1602155398497" />
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1602154885184">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="225" y="0" key="CommitChangelistDialog2/0.0.1152.2008@0.0.1152.2008" timestamp="1600416204038" />
-    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1602146528471" />
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1602154885184" />
     <state x="397" y="191" key="FileChooserDialogImpl" timestamp="1601984950824">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="357" y="759" key="FileChooserDialogImpl/0.0.1152.2008@0.0.1152.2008" timestamp="1601200517607" />
     <state x="397" y="191" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1601984950824" />
-    <state width="1236" height="499" key="GridCell.Tab.0.bottom" timestamp="1602154612699">
+    <state width="1236" height="499" key="GridCell.Tab.0.bottom" timestamp="1602159913490">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1109" height="590" key="GridCell.Tab.0.bottom/0.0.1152.2008@0.0.1152.2008" timestamp="1600416406155" />
-    <state width="1236" height="499" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1602154612699" />
-    <state width="1236" height="499" key="GridCell.Tab.0.center" timestamp="1602154612699">
+    <state width="1236" height="499" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1602159913490" />
+    <state width="1236" height="499" key="GridCell.Tab.0.center" timestamp="1602159913489">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1109" height="590" key="GridCell.Tab.0.center/0.0.1152.2008@0.0.1152.2008" timestamp="1600416406155" />
-    <state width="1236" height="499" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1602154612699" />
-    <state width="1236" height="499" key="GridCell.Tab.0.left" timestamp="1602154612699">
+    <state width="1236" height="499" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1602159913489" />
+    <state width="1236" height="499" key="GridCell.Tab.0.left" timestamp="1602159913489">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1109" height="590" key="GridCell.Tab.0.left/0.0.1152.2008@0.0.1152.2008" timestamp="1600416406155" />
-    <state width="1236" height="499" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1602154612699" />
-    <state width="1236" height="499" key="GridCell.Tab.0.right" timestamp="1602154612699">
+    <state width="1236" height="499" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1602159913489" />
+    <state width="1236" height="499" key="GridCell.Tab.0.right" timestamp="1602159913490">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1109" height="590" key="GridCell.Tab.0.right/0.0.1152.2008@0.0.1152.2008" timestamp="1600416406155" />
-    <state width="1236" height="499" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1602154612699" />
+    <state width="1236" height="499" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1602159913490" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1602142500748">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1602142500748" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1602146534669">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1602154889704">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="210" y="219" key="Vcs.Push.Dialog.v2/0.0.1152.2008@0.0.1152.2008" timestamp="1600416211019" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1602146534669" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1602154889704" />
     <state x="286" y="280" key="com.intellij.ide.util.TipDialog" timestamp="1602142534975">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -448,15 +485,15 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="371" y="94" key="extract.method.dialog/0.0.1280.680@0.0.1280.680" timestamp="1602143658786" />
-    <state x="327" y="132" key="git4idea.merge.GitPullDialog" timestamp="1602154854920">
+    <state x="327" y="132" key="git4idea.merge.GitPullDialog" timestamp="1602160686838">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="294" y="390" key="git4idea.merge.GitPullDialog/0.0.1152.2008@0.0.1152.2008" timestamp="1600416134008" />
-    <state x="327" y="132" key="git4idea.merge.GitPullDialog/0.0.1280.680@0.0.1280.680" timestamp="1602154854920" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1601965688917">
+    <state x="327" y="132" key="git4idea.merge.GitPullDialog/0.0.1280.680@0.0.1280.680" timestamp="1602160686838" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1602159004834">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="273" y="3" width="672" height="2003" key="search.everywhere.popup/0.0.1152.2008@0.0.1152.2008" timestamp="1601204021560" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1601965688917" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1602159004834" />
   </component>
 </project>

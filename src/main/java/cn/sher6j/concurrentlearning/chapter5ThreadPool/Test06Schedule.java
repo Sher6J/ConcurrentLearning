@@ -1,4 +1,4 @@
-package cn.sher6j.concurrentlearning.chapter5ConcurrencyTools;
+package cn.sher6j.concurrentlearning.chapter5ThreadPool;
 
 import java.time.DayOfWeek;
 import java.time.Duration;

@@ -68,6 +68,7 @@ public class Test04TaskProcess {
                 log.debug("{}", f.get());
             } catch (InterruptedException e) {
                 e.printStackTrace();
+                Thread.currentThread().interrupt();
             } catch (ExecutionException e) {
                 e.printStackTrace();
             }

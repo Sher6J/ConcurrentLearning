@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="106506cb-bcaf-4b25-8eac-b84d9863ad61" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/sher6j/concurrentlearning/chapter5ThreadPool/Test04TaskProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/sher6j/concurrentlearning/chapter5ThreadPool/Test04TaskProcess.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +83,7 @@
       <recent name="cn.sher6j.concurrentlearning.concurrencyinPractice" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test04TaskProcess">
+  <component name="RunManager" selected="Application.Test05CPUNums">
     <configuration name="Test02TestHarness" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.sher6j.concurrentlearning.concurrencyinPractice.Test02TestHarness" />
       <module name="ConcurrentLearning" />
@@ -137,7 +136,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test01SingleTheadConcurrencyModificationExceptionTest.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test05CPUNums" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.sher6j.concurrentlearning.concurrencyinPractice.Test05CPUNums" />
       <module name="ConcurrentLearning" />
       <extension name="coverage">
         <pattern>
@@ -145,10 +145,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="cn.sher6j.concurrentlearning.concurrencyinPractice" />
-      <option name="MAIN_CLASS_NAME" value="cn.sher6j.concurrentlearning.concurrencyinPractice.Test01SingleTheadConcurrencyModificationExceptionTest" />
-      <option name="METHOD_NAME" value="test5" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -156,17 +152,17 @@
     <list>
       <item itemvalue="Application.Test02TestHarness" />
       <item itemvalue="Application.Test03TimerProblem" />
-      <item itemvalue="JUnit.Test01SingleTheadConcurrencyModificationExceptionTest.test5" />
       <item itemvalue="Application.Test04PrimeGenerator" />
       <item itemvalue="Application.Test04TaskProcess" />
+      <item itemvalue="Application.Test05CPUNums" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test05CPUNums" />
         <item itemvalue="Application.Test04TaskProcess" />
         <item itemvalue="Application.Test04PrimeGenerator" />
         <item itemvalue="Application.Test03TimerProblem" />
         <item itemvalue="Application.Test02TestHarness" />
-        <item itemvalue="JUnit.Test01SingleTheadConcurrencyModificationExceptionTest.test5" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +224,13 @@
       <workItem from="1602326483611" duration="39000" />
       <workItem from="1602327067069" duration="8873000" />
       <workItem from="1602383297034" duration="73000" />
-      <workItem from="1602414998774" duration="4954000" />
+      <workItem from="1602414998774" duration="4986000" />
+      <workItem from="1602483753220" duration="19000" />
+      <workItem from="1602488235699" duration="2665000" />
+      <workItem from="1602549470143" duration="19000" />
+      <workItem from="1602549953709" duration="3004000" />
+      <workItem from="1602568463056" duration="617000" />
+      <workItem from="1602576712901" duration="920000" />
     </task>
     <task id="LOCAL-00001" summary="createThread">
       <created>1600345284545</created>
@@ -426,7 +428,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602337117934</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="createThread">
+      <created>1602423569771</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1602423569771</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -490,63 +499,63 @@
     </state>
     <state x="401" y="148" key="#com.intellij.ide.util.MemberChooser/0.0.1152.2008@0.0.1152.2008" timestamp="1600413034430" />
     <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1602415445285" />
-    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1602337117179">
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1602423568944">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="225" y="0" key="CommitChangelistDialog2/0.0.1152.2008@0.0.1152.2008" timestamp="1600416204038" />
-    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1602337117179" />
-    <state x="357" y="759" key="FileChooserDialogImpl" timestamp="1602383367804">
-      <screen x="0" y="0" width="1152" height="2008" />
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1602423568944" />
+    <state x="397" y="191" key="FileChooserDialogImpl" timestamp="1602549487800">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="357" y="759" key="FileChooserDialogImpl/0.0.1152.2008@0.0.1152.2008" timestamp="1602383367804" />
-    <state x="397" y="191" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1602326520277" />
-    <state width="1236" height="499" key="GridCell.Tab.0.bottom" timestamp="1602417052971">
+    <state x="397" y="191" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1602549487800" />
+    <state width="1236" height="499" key="GridCell.Tab.0.bottom" timestamp="1602490994224">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1109" height="590" key="GridCell.Tab.0.bottom/0.0.1152.2008@0.0.1152.2008" timestamp="1600416406155" />
-    <state width="1236" height="499" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1602417052971" />
-    <state width="1236" height="499" key="GridCell.Tab.0.center" timestamp="1602417052971">
+    <state width="1236" height="499" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1602490994224" />
+    <state width="1236" height="499" key="GridCell.Tab.0.center" timestamp="1602490994224">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1109" height="590" key="GridCell.Tab.0.center/0.0.1152.2008@0.0.1152.2008" timestamp="1600416406155" />
-    <state width="1236" height="499" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1602417052971" />
-    <state width="1236" height="499" key="GridCell.Tab.0.left" timestamp="1602417052971">
+    <state width="1236" height="499" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1602490994224" />
+    <state width="1236" height="499" key="GridCell.Tab.0.left" timestamp="1602490994224">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1109" height="590" key="GridCell.Tab.0.left/0.0.1152.2008@0.0.1152.2008" timestamp="1600416406155" />
-    <state width="1236" height="499" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1602417052971" />
-    <state width="1236" height="499" key="GridCell.Tab.0.right" timestamp="1602417052971">
+    <state width="1236" height="499" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1602490994224" />
+    <state width="1236" height="499" key="GridCell.Tab.0.right" timestamp="1602490994224">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1109" height="590" key="GridCell.Tab.0.right/0.0.1152.2008@0.0.1152.2008" timestamp="1600416406155" />
-    <state width="1236" height="499" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1602417052971" />
+    <state width="1236" height="499" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1602490994224" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1602142500748">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1602142500748" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1602337119415">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1602423576215">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="210" y="219" key="Vcs.Push.Dialog.v2/0.0.1152.2008@0.0.1152.2008" timestamp="1600416211019" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1602337119415" />
-    <state x="257" y="828" key="com.intellij.ide.util.TipDialog" timestamp="1602383362027">
-      <screen x="0" y="0" width="1152" height="2008" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1602423576215" />
+    <state x="286" y="280" key="com.intellij.ide.util.TipDialog" timestamp="1602593716133">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="257" y="828" key="com.intellij.ide.util.TipDialog/0.0.1152.2008@0.0.1152.2008" timestamp="1602383362027" />
-    <state x="286" y="280" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1602326501437" />
+    <state x="286" y="280" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1602593716133" />
     <state x="371" y="94" key="extract.method.dialog" timestamp="1602224668020">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="371" y="94" key="extract.method.dialog/0.0.1280.680@0.0.1280.680" timestamp="1602224668020" />
-    <state x="327" y="132" key="git4idea.merge.GitPullDialog" timestamp="1602423549325">
+    <state x="327" y="132" key="git4idea.merge.GitPullDialog" timestamp="1602593737143">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="294" y="390" key="git4idea.merge.GitPullDialog/0.0.1152.2008@0.0.1152.2008" timestamp="1600416134008" />
-    <state x="327" y="132" key="git4idea.merge.GitPullDialog/0.0.1280.680@0.0.1280.680" timestamp="1602423549325" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1602422600471">
+    <state x="327" y="132" key="git4idea.merge.GitPullDialog/0.0.1280.680@0.0.1280.680" timestamp="1602593737143" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1602576883867">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="273" y="3" width="672" height="2003" key="search.everywhere.popup/0.0.1152.2008@0.0.1152.2008" timestamp="1601204021560" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1602422600471" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1602576883867" />
   </component>
 </project>

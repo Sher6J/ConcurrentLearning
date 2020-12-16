@@ -1,4 +1,4 @@
-package cn.sher6j.concurrentlearning.chapter6ConcurrencyTools;
+package cn.sher6j.concurrentlearning.chapter6ConcurrencyToolsAQS;
 
 import lombok.extern.slf4j.Slf4j;
 

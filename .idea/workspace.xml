@@ -6,6 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="106506cb-bcaf-4b25-8eac-b84d9863ad61" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/sher6j/concurrentlearning/chapter6ConcurrencyTools/Test01AQS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/sher6j/concurrentlearning/chapter6ConcurrencyToolsAQS/Test01AQS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/sher6j/concurrentlearning/chapter6ConcurrencyTools/Test02ReadWriteLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/sher6j/concurrentlearning/chapter6ConcurrencyToolsAQS/Test02ReadWriteLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/sher6j/concurrentlearning/chapter6ConcurrencyTools/Test03StampedLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/sher6j/concurrentlearning/chapter6ConcurrencyToolsAQS/Test03StampedLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/sher6j/concurrentlearning/chapter6ConcurrencyTools/Test04Semaphore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/sher6j/concurrentlearning/chapter6ConcurrencyToolsAQS/Test04Semaphore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/sher6j/concurrentlearning/chapter6ConcurrencyTools/Test05CountDownLatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/sher6j/concurrentlearning/chapter6ConcurrencyToolsAQS/Test05CountDownLatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/sher6j/concurrentlearning/chapter6ConcurrencyTools/Test06WaitingPlayers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/sher6j/concurrentlearning/chapter6ConcurrencyToolsAQS/Test06WaitingPlayers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -237,7 +243,12 @@
       <workItem from="1602655421918" duration="655000" />
       <workItem from="1602659448202" duration="2073000" />
       <workItem from="1606807211377" duration="6002000" />
-      <workItem from="1607304582227" duration="6340000" />
+      <workItem from="1607304582227" duration="6372000" />
+      <workItem from="1607326177360" duration="75000" />
+      <workItem from="1607349686872" duration="1669000" />
+      <workItem from="1607475773733" duration="16000" />
+      <workItem from="1607477051657" duration="13640000" />
+      <workItem from="1608104019568" duration="3856000" />
     </task>
     <task id="LOCAL-00001" summary="createThread">
       <created>1600345284545</created>
@@ -456,7 +467,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606824044595</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="createThread">
+      <created>1607311402914</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1607311402914</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -515,21 +533,25 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1600735991400" />
+    <state x="385" y="176" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1607326247243">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="385" y="176" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1280.680@0.0.1280.680" timestamp="1607326247243" />
     <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser" timestamp="1602415445285">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="401" y="148" key="#com.intellij.ide.util.MemberChooser/0.0.1152.2008@0.0.1152.2008" timestamp="1600413034430" />
     <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1602415445285" />
-    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1606824043806">
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1607311402095">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="225" y="0" key="CommitChangelistDialog2/0.0.1152.2008@0.0.1152.2008" timestamp="1600416204038" />
-    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1606824043806" />
-    <state x="397" y="191" key="FileChooserDialogImpl" timestamp="1606824063315">
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1607311402095" />
+    <state x="397" y="163" key="FileChooserDialogImpl" timestamp="1607475787880">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="357" y="759" key="FileChooserDialogImpl/0.0.1152.2008@0.0.1152.2008" timestamp="1602383367804" />
-    <state x="397" y="191" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1606824063315" />
+    <state x="397" y="163" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1607475787880" />
     <state width="1236" height="499" key="GridCell.Tab.0.bottom" timestamp="1606824064187">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -554,29 +576,33 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1602142500748" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1606824046441">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1607311404550">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="210" y="219" key="Vcs.Push.Dialog.v2/0.0.1152.2008@0.0.1152.2008" timestamp="1600416211019" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1606824046441" />
-    <state x="286" y="280" key="com.intellij.ide.util.TipDialog" timestamp="1602659449986">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1607311404550" />
+    <state x="286" y="280" key="com.intellij.ide.util.TipDialog" timestamp="1607475773525">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="257" y="828" key="com.intellij.ide.util.TipDialog/0.0.1152.2008@0.0.1152.2008" timestamp="1602383362027" />
-    <state x="286" y="280" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1602659449986" />
+    <state x="286" y="280" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1607475773525" />
     <state x="371" y="94" key="extract.method.dialog" timestamp="1602224668020">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="371" y="94" key="extract.method.dialog/0.0.1280.680@0.0.1280.680" timestamp="1602224668020" />
-    <state x="327" y="132" key="git4idea.merge.GitPullDialog" timestamp="1607311390052">
+    <state x="327" y="132" key="git4idea.merge.GitPullDialog" timestamp="1608121680399">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="294" y="390" key="git4idea.merge.GitPullDialog/0.0.1152.2008@0.0.1152.2008" timestamp="1600416134008" />
-    <state x="327" y="132" key="git4idea.merge.GitPullDialog/0.0.1280.680@0.0.1280.680" timestamp="1607311390052" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1607309419044">
+    <state x="327" y="132" key="git4idea.merge.GitPullDialog/0.0.1280.680@0.0.1280.680" timestamp="1608121680399" />
+    <state x="28" y="36" key="new project wizard" timestamp="1607509892973">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="28" y="36" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1607509892973" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1608121038960">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="273" y="3" width="672" height="2003" key="search.everywhere.popup/0.0.1152.2008@0.0.1152.2008" timestamp="1601204021560" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1607309419044" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1608121038960" />
   </component>
 </project>
